@@ -1,0 +1,33 @@
+
+.parent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content:center;
+  gap: 0px;
+}
+.a1
+  {
+    grid-column:1;
+    text-align:left;
+    
+  }
+
+.p1{
+  font-weight:bold;
+  font-size:14px;
+  grid-column: 2;
+  padding:5px;
+  text-align:left
+}
+.p2{
+  font-size:13px
+}
+.p3{
+  font-weight:bold;
+  font-size:14px;
+  
+}
+.a2{
+  color:blue
+}
